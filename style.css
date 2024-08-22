@@ -149,7 +149,7 @@ section {
 	view-timeline-axis: block;
 	animation: linear reveal both;
 	animation-timeline: --revealing-image;
-	animation-range: entry 40% cover 60%;
+	animation-range: entry 0% cover 25%;
 }
 
 .product-card {
@@ -288,7 +288,7 @@ footer .social li a {
 @keyframes reveal {
 	from {
 		opacity: 0;
-		clip-path: inset(75% 30% 75% 30%);
+		clip-path: inset(45% 20% 45% 20%);
 	}
 	to {
 		opacity: 1;

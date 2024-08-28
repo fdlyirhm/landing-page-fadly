@@ -258,6 +258,24 @@ footer .social li a {
     }
 }
 
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+#scrollToTopBtn::hover {
+    background-color: #555;
+}
+
 @keyframes slidein {
     from {
       translate: 200vw 0;
